@@ -47,10 +47,10 @@ RM = "C:\Program Files (x86)\JetBrains\CLion 2016.2.3\bin\cmake\bin\cmake.exe" -
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Patrick\ClionProjects\cpr
+CMAKE_SOURCE_DIR = C:\Users\Patrick\ClionProjects\CPRgit
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Patrick\ClionProjects\cpr\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\Patrick\ClionProjects\CPRgit\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -79,9 +79,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Patrick\ClionProjects\cpr\cmake-build-debug\CMakeFiles C:\Users\Patrick\ClionProjects\cpr\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Patrick\ClionProjects\CPRgit\cmake-build-debug\CMakeFiles C:\Users\Patrick\ClionProjects\CPRgit\cmake-build-debug\CMakeFiles\progress.marks
 	$(MAKE) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Patrick\ClionProjects\cpr\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Patrick\ClionProjects\CPRgit\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -121,6 +121,33 @@ cpr: cmake_check_build_system
 cpr/fast:
 	$(MAKE) -f CMakeFiles\cpr.dir\build.make CMakeFiles/cpr.dir/build
 .PHONY : cpr/fast
+
+.idea/main4.obj: .idea/main4.cpp.obj
+
+.PHONY : .idea/main4.obj
+
+# target to build an object file
+.idea/main4.cpp.obj:
+	$(MAKE) -f CMakeFiles\cpr.dir\build.make CMakeFiles/cpr.dir/.idea/main4.cpp.obj
+.PHONY : .idea/main4.cpp.obj
+
+.idea/main4.i: .idea/main4.cpp.i
+
+.PHONY : .idea/main4.i
+
+# target to preprocess a source file
+.idea/main4.cpp.i:
+	$(MAKE) -f CMakeFiles\cpr.dir\build.make CMakeFiles/cpr.dir/.idea/main4.cpp.i
+.PHONY : .idea/main4.cpp.i
+
+.idea/main4.s: .idea/main4.cpp.s
+
+.PHONY : .idea/main4.s
+
+# target to generate assembly for a file
+.idea/main4.cpp.s:
+	$(MAKE) -f CMakeFiles\cpr.dir\build.make CMakeFiles/cpr.dir/.idea/main4.cpp.s
+.PHONY : .idea/main4.cpp.s
 
 Matrix.obj: Matrix.cpp.obj
 
@@ -239,6 +266,9 @@ help:
 	@echo ... cpr
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... .idea/main4.obj
+	@echo ... .idea/main4.i
+	@echo ... .idea/main4.s
 	@echo ... Matrix.obj
 	@echo ... Matrix.i
 	@echo ... Matrix.s

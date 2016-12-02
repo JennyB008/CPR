@@ -3,6 +3,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/cpr.dir/Matrix.cpp.obj"
   "CMakeFiles/cpr.dir/Vektor.cpp.obj"
   "CMakeFiles/cpr.dir/Vektor2D.cpp.obj"
+  "CMakeFiles/cpr.dir/.idea/main4.cpp.obj"
   "cpr.pdb"
   "cpr.exe"
   "cpr.exe.manifest"

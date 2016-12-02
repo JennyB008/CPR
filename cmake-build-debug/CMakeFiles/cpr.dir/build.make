@@ -42,10 +42,10 @@ RM = "C:\Program Files (x86)\JetBrains\CLion 2016.2.3\bin\cmake\bin\cmake.exe" -
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Patrick\ClionProjects\cpr
+CMAKE_SOURCE_DIR = C:\Users\Patrick\ClionProjects\CPRgit
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Patrick\ClionProjects\cpr\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\Patrick\ClionProjects\CPRgit\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/cpr.dir/depend.make
@@ -58,16 +58,16 @@ include CMakeFiles/cpr.dir/flags.make
 
 CMakeFiles/cpr.dir/main.cpp.obj: CMakeFiles/cpr.dir/flags.make
 CMakeFiles/cpr.dir/main.cpp.obj: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Patrick\ClionProjects\cpr\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/cpr.dir/main.cpp.obj"
-	C:\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\cpr.dir\main.cpp.obj -c C:\Users\Patrick\ClionProjects\cpr\main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Patrick\ClionProjects\CPRgit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/cpr.dir/main.cpp.obj"
+	C:\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\cpr.dir\main.cpp.obj -c C:\Users\Patrick\ClionProjects\CPRgit\main.cpp
 
 CMakeFiles/cpr.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpr.dir/main.cpp.i"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Patrick\ClionProjects\cpr\main.cpp > CMakeFiles\cpr.dir\main.cpp.i
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Patrick\ClionProjects\CPRgit\main.cpp > CMakeFiles\cpr.dir\main.cpp.i
 
 CMakeFiles/cpr.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpr.dir/main.cpp.s"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Patrick\ClionProjects\cpr\main.cpp -o CMakeFiles\cpr.dir\main.cpp.s
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Patrick\ClionProjects\CPRgit\main.cpp -o CMakeFiles\cpr.dir\main.cpp.s
 
 CMakeFiles/cpr.dir/main.cpp.obj.requires:
 
@@ -82,16 +82,16 @@ CMakeFiles/cpr.dir/main.cpp.obj.provides.build: CMakeFiles/cpr.dir/main.cpp.obj
 
 CMakeFiles/cpr.dir/Matrix.cpp.obj: CMakeFiles/cpr.dir/flags.make
 CMakeFiles/cpr.dir/Matrix.cpp.obj: ../Matrix.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Patrick\ClionProjects\cpr\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/cpr.dir/Matrix.cpp.obj"
-	C:\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\cpr.dir\Matrix.cpp.obj -c C:\Users\Patrick\ClionProjects\cpr\Matrix.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Patrick\ClionProjects\CPRgit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/cpr.dir/Matrix.cpp.obj"
+	C:\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\cpr.dir\Matrix.cpp.obj -c C:\Users\Patrick\ClionProjects\CPRgit\Matrix.cpp
 
 CMakeFiles/cpr.dir/Matrix.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpr.dir/Matrix.cpp.i"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Patrick\ClionProjects\cpr\Matrix.cpp > CMakeFiles\cpr.dir\Matrix.cpp.i
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Patrick\ClionProjects\CPRgit\Matrix.cpp > CMakeFiles\cpr.dir\Matrix.cpp.i
 
 CMakeFiles/cpr.dir/Matrix.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpr.dir/Matrix.cpp.s"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Patrick\ClionProjects\cpr\Matrix.cpp -o CMakeFiles\cpr.dir\Matrix.cpp.s
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Patrick\ClionProjects\CPRgit\Matrix.cpp -o CMakeFiles\cpr.dir\Matrix.cpp.s
 
 CMakeFiles/cpr.dir/Matrix.cpp.obj.requires:
 
@@ -106,16 +106,16 @@ CMakeFiles/cpr.dir/Matrix.cpp.obj.provides.build: CMakeFiles/cpr.dir/Matrix.cpp.
 
 CMakeFiles/cpr.dir/Vektor.cpp.obj: CMakeFiles/cpr.dir/flags.make
 CMakeFiles/cpr.dir/Vektor.cpp.obj: ../Vektor.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Patrick\ClionProjects\cpr\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/cpr.dir/Vektor.cpp.obj"
-	C:\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\cpr.dir\Vektor.cpp.obj -c C:\Users\Patrick\ClionProjects\cpr\Vektor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Patrick\ClionProjects\CPRgit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/cpr.dir/Vektor.cpp.obj"
+	C:\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\cpr.dir\Vektor.cpp.obj -c C:\Users\Patrick\ClionProjects\CPRgit\Vektor.cpp
 
 CMakeFiles/cpr.dir/Vektor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpr.dir/Vektor.cpp.i"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Patrick\ClionProjects\cpr\Vektor.cpp > CMakeFiles\cpr.dir\Vektor.cpp.i
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Patrick\ClionProjects\CPRgit\Vektor.cpp > CMakeFiles\cpr.dir\Vektor.cpp.i
 
 CMakeFiles/cpr.dir/Vektor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpr.dir/Vektor.cpp.s"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Patrick\ClionProjects\cpr\Vektor.cpp -o CMakeFiles\cpr.dir\Vektor.cpp.s
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Patrick\ClionProjects\CPRgit\Vektor.cpp -o CMakeFiles\cpr.dir\Vektor.cpp.s
 
 CMakeFiles/cpr.dir/Vektor.cpp.obj.requires:
 
@@ -130,16 +130,16 @@ CMakeFiles/cpr.dir/Vektor.cpp.obj.provides.build: CMakeFiles/cpr.dir/Vektor.cpp.
 
 CMakeFiles/cpr.dir/Vektor2D.cpp.obj: CMakeFiles/cpr.dir/flags.make
 CMakeFiles/cpr.dir/Vektor2D.cpp.obj: ../Vektor2D.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Patrick\ClionProjects\cpr\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/cpr.dir/Vektor2D.cpp.obj"
-	C:\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\cpr.dir\Vektor2D.cpp.obj -c C:\Users\Patrick\ClionProjects\cpr\Vektor2D.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Patrick\ClionProjects\CPRgit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/cpr.dir/Vektor2D.cpp.obj"
+	C:\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\cpr.dir\Vektor2D.cpp.obj -c C:\Users\Patrick\ClionProjects\CPRgit\Vektor2D.cpp
 
 CMakeFiles/cpr.dir/Vektor2D.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpr.dir/Vektor2D.cpp.i"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Patrick\ClionProjects\cpr\Vektor2D.cpp > CMakeFiles\cpr.dir\Vektor2D.cpp.i
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Patrick\ClionProjects\CPRgit\Vektor2D.cpp > CMakeFiles\cpr.dir\Vektor2D.cpp.i
 
 CMakeFiles/cpr.dir/Vektor2D.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpr.dir/Vektor2D.cpp.s"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Patrick\ClionProjects\cpr\Vektor2D.cpp -o CMakeFiles\cpr.dir\Vektor2D.cpp.s
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Patrick\ClionProjects\CPRgit\Vektor2D.cpp -o CMakeFiles\cpr.dir\Vektor2D.cpp.s
 
 CMakeFiles/cpr.dir/Vektor2D.cpp.obj.requires:
 
@@ -152,12 +152,37 @@ CMakeFiles/cpr.dir/Vektor2D.cpp.obj.provides: CMakeFiles/cpr.dir/Vektor2D.cpp.ob
 CMakeFiles/cpr.dir/Vektor2D.cpp.obj.provides.build: CMakeFiles/cpr.dir/Vektor2D.cpp.obj
 
 
+CMakeFiles/cpr.dir/.idea/main4.cpp.obj: CMakeFiles/cpr.dir/flags.make
+CMakeFiles/cpr.dir/.idea/main4.cpp.obj: ../.idea/main4.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Patrick\ClionProjects\CPRgit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/cpr.dir/.idea/main4.cpp.obj"
+	C:\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\cpr.dir\.idea\main4.cpp.obj -c C:\Users\Patrick\ClionProjects\CPRgit\.idea\main4.cpp
+
+CMakeFiles/cpr.dir/.idea/main4.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpr.dir/.idea/main4.cpp.i"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Patrick\ClionProjects\CPRgit\.idea\main4.cpp > CMakeFiles\cpr.dir\.idea\main4.cpp.i
+
+CMakeFiles/cpr.dir/.idea/main4.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpr.dir/.idea/main4.cpp.s"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Patrick\ClionProjects\CPRgit\.idea\main4.cpp -o CMakeFiles\cpr.dir\.idea\main4.cpp.s
+
+CMakeFiles/cpr.dir/.idea/main4.cpp.obj.requires:
+
+.PHONY : CMakeFiles/cpr.dir/.idea/main4.cpp.obj.requires
+
+CMakeFiles/cpr.dir/.idea/main4.cpp.obj.provides: CMakeFiles/cpr.dir/.idea/main4.cpp.obj.requires
+	$(MAKE) -f CMakeFiles\cpr.dir\build.make CMakeFiles/cpr.dir/.idea/main4.cpp.obj.provides.build
+.PHONY : CMakeFiles/cpr.dir/.idea/main4.cpp.obj.provides
+
+CMakeFiles/cpr.dir/.idea/main4.cpp.obj.provides.build: CMakeFiles/cpr.dir/.idea/main4.cpp.obj
+
+
 # Object files for target cpr
 cpr_OBJECTS = \
 "CMakeFiles/cpr.dir/main.cpp.obj" \
 "CMakeFiles/cpr.dir/Matrix.cpp.obj" \
 "CMakeFiles/cpr.dir/Vektor.cpp.obj" \
-"CMakeFiles/cpr.dir/Vektor2D.cpp.obj"
+"CMakeFiles/cpr.dir/Vektor2D.cpp.obj" \
+"CMakeFiles/cpr.dir/.idea/main4.cpp.obj"
 
 # External object files for target cpr
 cpr_EXTERNAL_OBJECTS =
@@ -166,11 +191,12 @@ cpr.exe: CMakeFiles/cpr.dir/main.cpp.obj
 cpr.exe: CMakeFiles/cpr.dir/Matrix.cpp.obj
 cpr.exe: CMakeFiles/cpr.dir/Vektor.cpp.obj
 cpr.exe: CMakeFiles/cpr.dir/Vektor2D.cpp.obj
+cpr.exe: CMakeFiles/cpr.dir/.idea/main4.cpp.obj
 cpr.exe: CMakeFiles/cpr.dir/build.make
 cpr.exe: CMakeFiles/cpr.dir/linklibs.rsp
 cpr.exe: CMakeFiles/cpr.dir/objects1.rsp
 cpr.exe: CMakeFiles/cpr.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Patrick\ClionProjects\cpr\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable cpr.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Patrick\ClionProjects\CPRgit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable cpr.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\cpr.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -182,6 +208,7 @@ CMakeFiles/cpr.dir/requires: CMakeFiles/cpr.dir/main.cpp.obj.requires
 CMakeFiles/cpr.dir/requires: CMakeFiles/cpr.dir/Matrix.cpp.obj.requires
 CMakeFiles/cpr.dir/requires: CMakeFiles/cpr.dir/Vektor.cpp.obj.requires
 CMakeFiles/cpr.dir/requires: CMakeFiles/cpr.dir/Vektor2D.cpp.obj.requires
+CMakeFiles/cpr.dir/requires: CMakeFiles/cpr.dir/.idea/main4.cpp.obj.requires
 
 .PHONY : CMakeFiles/cpr.dir/requires
 
@@ -190,6 +217,6 @@ CMakeFiles/cpr.dir/clean:
 .PHONY : CMakeFiles/cpr.dir/clean
 
 CMakeFiles/cpr.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\Patrick\ClionProjects\cpr C:\Users\Patrick\ClionProjects\cpr C:\Users\Patrick\ClionProjects\cpr\cmake-build-debug C:\Users\Patrick\ClionProjects\cpr\cmake-build-debug C:\Users\Patrick\ClionProjects\cpr\cmake-build-debug\CMakeFiles\cpr.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\Patrick\ClionProjects\CPRgit C:\Users\Patrick\ClionProjects\CPRgit C:\Users\Patrick\ClionProjects\CPRgit\cmake-build-debug C:\Users\Patrick\ClionProjects\CPRgit\cmake-build-debug C:\Users\Patrick\ClionProjects\CPRgit\cmake-build-debug\CMakeFiles\cpr.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/cpr.dir/depend
 

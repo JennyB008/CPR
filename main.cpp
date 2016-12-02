@@ -1,8 +1,8 @@
 #include "Vektor2D.h"
 #include <iostream>
 
-int main() {
 
+int main1() {
     /*Vektor2D a(3, 1), b(1, 2),*/
     Vektor2D z(-3, 1), w = Vektor2D();
     w.addiere(z);
@@ -33,15 +33,14 @@ int main() {
 */
     std::cout << "Test" << std::endl;
     Vektor2D u(1, 2);
+    std::cout << std::endl;
+    std::cout << std::endl;
     u.ausgabe();
     std::cout << std::endl;
     std::cout << std::endl;
-    std::cout << std::endl;
-    std::cout << std::endl;
-
     Vektor2D::tausche(&u, &w);
     std::cout << std::endl;
     std::cout << std::endl;
-    std::cout << std::endl;
     w.ausgabe();
+
 }

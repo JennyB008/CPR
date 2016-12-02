@@ -13,7 +13,8 @@ class Vektor2D : public Vektor
 public:
     Vektor2D();
     Vektor2D(float x, float y);
-    void kopiereIn(Vektor2D vektor);
+    void kopiereIn(Vektor2D* vektor);
+    void ausgabe();
     virtual ~Vektor2D();
     static void tausche(Vektor2D *a, Vektor2D* b);
 };

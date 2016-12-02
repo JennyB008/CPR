@@ -4,10 +4,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/Patrick/ClionProjects/cpr/Matrix.cpp" "C:/Users/Patrick/ClionProjects/cpr/cmake-build-debug/CMakeFiles/cpr.dir/Matrix.cpp.obj"
-  "C:/Users/Patrick/ClionProjects/cpr/Vektor.cpp" "C:/Users/Patrick/ClionProjects/cpr/cmake-build-debug/CMakeFiles/cpr.dir/Vektor.cpp.obj"
-  "C:/Users/Patrick/ClionProjects/cpr/Vektor2D.cpp" "C:/Users/Patrick/ClionProjects/cpr/cmake-build-debug/CMakeFiles/cpr.dir/Vektor2D.cpp.obj"
-  "C:/Users/Patrick/ClionProjects/cpr/main.cpp" "C:/Users/Patrick/ClionProjects/cpr/cmake-build-debug/CMakeFiles/cpr.dir/main.cpp.obj"
+  "C:/Users/Patrick/ClionProjects/CPRgit/.idea/main4.cpp" "C:/Users/Patrick/ClionProjects/CPRgit/cmake-build-debug/CMakeFiles/cpr.dir/.idea/main4.cpp.obj"
+  "C:/Users/Patrick/ClionProjects/CPRgit/Matrix.cpp" "C:/Users/Patrick/ClionProjects/CPRgit/cmake-build-debug/CMakeFiles/cpr.dir/Matrix.cpp.obj"
+  "C:/Users/Patrick/ClionProjects/CPRgit/Vektor.cpp" "C:/Users/Patrick/ClionProjects/CPRgit/cmake-build-debug/CMakeFiles/cpr.dir/Vektor.cpp.obj"
+  "C:/Users/Patrick/ClionProjects/CPRgit/Vektor2D.cpp" "C:/Users/Patrick/ClionProjects/CPRgit/cmake-build-debug/CMakeFiles/cpr.dir/Vektor2D.cpp.obj"
+  "C:/Users/Patrick/ClionProjects/CPRgit/main.cpp" "C:/Users/Patrick/ClionProjects/CPRgit/cmake-build-debug/CMakeFiles/cpr.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

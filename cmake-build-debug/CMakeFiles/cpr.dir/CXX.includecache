@@ -6,35 +6,43 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/Patrick/ClionProjects/cpr/Matrix.cpp
+C:/Users/Patrick/ClionProjects/CPRgit/.idea/main4.cpp
+iostream
+-
+../Vektor2D.h
+C:/Users/Patrick/ClionProjects/CPRgit/Vektor2D.h
+
+C:/Users/Patrick/ClionProjects/CPRgit/Matrix.cpp
 iostream
 -
 Matrix.h
-C:/Users/Patrick/ClionProjects/cpr/Matrix.h
+C:/Users/Patrick/ClionProjects/CPRgit/Matrix.h
 
-C:/Users/Patrick/ClionProjects/cpr/Matrix.h
+C:/Users/Patrick/ClionProjects/CPRgit/Matrix.h
 
-C:/Users/Patrick/ClionProjects/cpr/Vektor.cpp
+C:/Users/Patrick/ClionProjects/CPRgit/Vektor.cpp
 cmath
 -
 Vektor.h
-C:/Users/Patrick/ClionProjects/cpr/Vektor.h
+C:/Users/Patrick/ClionProjects/CPRgit/Vektor.h
 
-C:/Users/Patrick/ClionProjects/cpr/Vektor.h
+C:/Users/Patrick/ClionProjects/CPRgit/Vektor.h
 Matrix.h
-C:/Users/Patrick/ClionProjects/cpr/Matrix.h
+C:/Users/Patrick/ClionProjects/CPRgit/Matrix.h
 
-C:/Users/Patrick/ClionProjects/cpr/Vektor2D.cpp
+C:/Users/Patrick/ClionProjects/CPRgit/Vektor2D.cpp
+iostream
+-
 Vektor2D.h
-C:/Users/Patrick/ClionProjects/cpr/Vektor2D.h
+C:/Users/Patrick/ClionProjects/CPRgit/Vektor2D.h
 
-C:/Users/Patrick/ClionProjects/cpr/Vektor2D.h
+C:/Users/Patrick/ClionProjects/CPRgit/Vektor2D.h
 Vektor.h
-C:/Users/Patrick/ClionProjects/cpr/Vektor.h
+C:/Users/Patrick/ClionProjects/CPRgit/Vektor.h
 
-C:/Users/Patrick/ClionProjects/cpr/main.cpp
+C:/Users/Patrick/ClionProjects/CPRgit/main.cpp
 Vektor2D.h
-C:/Users/Patrick/ClionProjects/cpr/Vektor2D.h
+C:/Users/Patrick/ClionProjects/CPRgit/Vektor2D.h
 iostream
 -
 

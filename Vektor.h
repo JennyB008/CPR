@@ -13,6 +13,7 @@ public:
     virtual ~Vektor();
     float betrag(void);
     void addiere(Vektor v);
+    int skalarprodukt(Vektor v);
 };
 
 #endif
